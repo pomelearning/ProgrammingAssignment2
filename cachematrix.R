@@ -25,6 +25,8 @@ makeCacheMatrix <- function(x = matrix())
 	{ 
 		mi; 
 	};
+	
+	list(set=set, get=get, setinverse=setinverse, getinverse=getinverse);
 } 
 
 ## retrieve cached inverse of a matrix ## 
